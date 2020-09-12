@@ -1,0 +1,145 @@
+.row {
+        
+            margin-right: -20px;
+            margin-left: -20px;
+        }
+
+/* HOME PAGE */ 
+
+#header-nav{
+	background-color: #893BFF;
+}
+#brand-name-a{
+	color: #B0FF3B;
+	font-size: 1.2em;
+	text-decoration: none;
+}
+#home-a,#employee-login-a,#admin-login-a{
+	color: #B0FF3B;
+	text-decoration: none;
+}
+#home-a:hover,#employee-login-a:hover,#admin-login-a:hover{
+	color: black;
+	
+}
+#nav-list{
+	list-style:none;
+	display: flex;
+}
+body{
+	background-color: #FDEEF4;
+
+}
+#main-content{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background-color: #FDEEF4;
+}
+#admin-tile,#employee-tile{
+	height: 250px;
+	width: 100%;
+	margin-bottom: 25px;
+	position: relative;
+	border: 2px solid black;
+	overflow: hidden;
+}
+#admin-tile:hover,#employee-tile:hover{
+	box-shadow: 0 1px 25px 1px #cccccc; 
+}
+#admin-tile{
+	background-image: url('../images/admin1.png');
+	background-position: center;
+	background-size: 150px;
+	background-repeat: no-repeat;
+
+}
+#employee-tile{
+	background-image: url('../images/employee1.png');
+	background-position: center;
+	background-size: 150px;
+	background-repeat: no-repeat;
+
+}
+#admin-tile span,#employee-tile span{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.5em;
+	color: black;
+
+}
+#foot-div{
+	background-color: #893BFF;
+	color: #B0FF3B;
+}
+
+/* END HOME PAGE */ 
+
+/*LOGIN PAGE */
+.centerDiv {
+            display: table;
+            margin: 5% auto 5% auto;
+        }
+.card-title{
+	text-align: center;
+		}
+ .card {
+            box-shadow: 0 15px 30px 0 rgba(0,0,0,0.8), 0 5px 15px 0 rgba(0,0,0,0.08);
+        }
+ .col-form-label{
+ 	width: 100%;
+ }
+ #login-box{
+ 	margin-top: 15px;
+ }
+ #alert-box{
+ 	position: relative;
+ 	text-align: center;
+ 	color: #B0FF3B;
+ 	background-color: #893BFF
+
+ }
+#usrtext,#usrpassword{
+	position: relative;
+	height: 35px;
+	width: 100%;
+	margin-bottom: 15px;
+
+}
+#login-btn{
+	position: relative;
+	margin-top: 15px;
+}
+.btn-primary{
+	background-color: #893BFF;
+	color: #B0FF3B;
+	border: 1px solid #893BFF;
+}
+#login-btn:hover{
+	background-color: #A23BEC;
+	border: 1px solid #A23BEC;
+}
+/* ADMIN PAGE */
+#vertical-container{
+background-color: #B0FF3B;
+position: relative;
+
+}
+#vertical-nav{
+	width: 100%;
+	height: 100vh;
+	background-color: #B0FF3B;
+	position: relative;
+}
+.navbar{
+	position: relative;
+
+	align-items: flex-start;
+}
+
+#main-content{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
