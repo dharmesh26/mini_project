@@ -1,19 +1,62 @@
-.row {
-        
-            margin-right: -20px;
-            margin-left: -20px;
+.centerDiv {
+            display: table;
+            margin: 5% auto 5% auto;
         }
+.centerSpan{
+	display: table;
+	margin: 2% auto 2% auto;
+}
+body{
+	background-color: #FDEEF4;
 
+}
+#main-content{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background-color: #FDEEF4;
+}
+#foot-div{
+	background-color: #893BFF;
+	color: #B0FF3B;
+}
+/* BASE NAVBAR */
+.navbar-light .navbar-brand{
+	color: #B0FF3B!important;
+}
+.navbar-light .navbar-nav .nav-link{
+	color: #B0FF3B!important;
+	
+}
+.navbar-light .navbar-nav .active>.nav-link{
+	color: #B0FF3B!important;
+	text-decoration: overline;
+	text-decoration-style: double;
+}
+.btn-outline-primary{
+	color: #B0FF3B!important;
+	border-color: #B0FF3B!important;
+}
+.btn-outline-primary:hover{
+	font-size: 1.1em;
+	color: #893BFF!important;
+	background-color: #B0FF3B!important;
+}
+
+.bg-dark{
+	background-color: #893BFF!important;
+}
+/* END BASE NAVBAR */
 /* HOME PAGE */ 
 
 #header-nav{
 	background-color: #893BFF;
+	
 }
 #brand-name-a{
 	color: #B0FF3B;
-	font-size: 1.2em;
 	text-decoration: none;
 }
+
 #home-a,#employee-login-a,#admin-login-a{
 	color: #B0FF3B;
 	text-decoration: none;
@@ -26,14 +69,10 @@
 	list-style:none;
 	display: flex;
 }
-body{
-	background-color: #FDEEF4;
 
-}
-#main-content{
+#home-tiles{
 	margin-top: 50px;
 	margin-bottom: 50px;
-	background-color: #FDEEF4;
 }
 #admin-tile,#employee-tile{
 	height: 250px;
@@ -70,18 +109,9 @@ body{
 	color: black;
 
 }
-#foot-div{
-	background-color: #893BFF;
-	color: #B0FF3B;
-}
-
 /* END HOME PAGE */ 
 
 /*LOGIN PAGE */
-.centerDiv {
-            display: table;
-            margin: 5% auto 5% auto;
-        }
 .card-title{
 	text-align: center;
 		}
@@ -128,16 +158,6 @@ body{
 	width: 100%;
 	height: 100vh;
 	position: relative;
-}
-.navbar{
-	position: relative;
-
-	align-items: flex-start;
-}
-
-#main-content{
-	margin-top: 0px;
-	margin-bottom: 0px;
 }
 #profile-hr{
 	background-color: grey;	
